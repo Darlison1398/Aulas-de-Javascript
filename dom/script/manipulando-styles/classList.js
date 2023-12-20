@@ -1,4 +1,5 @@
 const h4 = document.querySelector('h4');
+const h3 = document.querySelector('h3');
 
 
 // posso adiocionar várias classes aqui, basta separar elas por vírgula
@@ -16,3 +17,5 @@ if (h4.classList.contains('active')) {
 
 // toogle. Ele verifica se tem o valor, se ñ tiver o valor será criado
 h4.classList.toggle('Teste');
+
+
